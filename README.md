@@ -86,7 +86,6 @@ The website is deployed and accessible on hosting. You can explore the Business 
 
 ```sql
 CREATE TABLE messages (
-    id INT AUTO_INCREMENT PRIMARY KEY,
     name TEXT NOT NULL,
     email TEXT NOT NULL,
     message TEXT NOT NULL,
