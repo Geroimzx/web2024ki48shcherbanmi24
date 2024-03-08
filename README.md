@@ -39,8 +39,14 @@ This repository contains code for websites made in programming languages ​​H
 # Task 2 details
 Create a simple website business card with your personal data or information about your project. Use POST and GET methods to navigate pages or send forms to the server. Use AJAX method to load parts of the page depending on user inputs.
 
+# Task 3 details
+Deploy site to hosting.
+
 # Project Business Card
 This project aims to create a simple website business card, showcasing personal data, my expierences, information about my projects and contact information. The website employs various technologies and methods for enhanced user interaction.
+
+# Access the Website
+The website is deployed and accessible on hosting. You can explore the Business Card by following this link: http://mski48.atwebpages.com/
 
 # How to Run the Project
 ### Instructions to Set Up a Local Server with XAMPP, Add Files, and Configure MySQL Database
