@@ -42,6 +42,14 @@ Create a simple website business card with your personal data or information abo
 # Task 3 details
 Deploy site to hosting.
 
+# Task 4 details
+Add authentication using:
+
+a. GOOGLE api.
+
+b. login and password
+
+
 # Project Business Card
 This project aims to create a simple website business card, showcasing personal data, my expierences, information about my projects and contact information. The website employs various technologies and methods for enhanced user interaction.
 
@@ -95,25 +103,23 @@ CREATE TABLE messages (
 
 #### Step 8: Update PHP Database Configuration
 
-1. In your PHP files, locate the file 'form.php' for database configuration.
+1. In your PHP files, locate the file 'db_connection.php' for database configuration.
 2. Update the database connection parameters (hostname, username, password, and database name) accordingly.
    
 Example:
 
 ```php
 <?php
-$hostname = "localhost";
-$username = "root";
-$password = "";
-$database = "business_card_db";
-
-$conn = new mysqli($hostname, $username, $password, $database);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-// Other code....
+    $hostname = "localhost";
+    $username = "root";
+    $password = "";
+    $database = "business_card_db";
+    
+    $conn = new mysqli($hostname, $username, $password, $database);
+    
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
 ?>
 ```
 
