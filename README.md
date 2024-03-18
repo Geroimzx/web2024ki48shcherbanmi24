@@ -42,6 +42,11 @@ Create a simple website business card with your personal data or information abo
 # Task 3 details
 Deploy site to hosting.
 
+# Task 4 details
+Add authentication using:
+a. GOOGLE api.
+b. login and password
+
 # Project Business Card
 This project aims to create a simple website business card, showcasing personal data, my expierences, information about my projects and contact information. The website employs various technologies and methods for enhanced user interaction.
 
