@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,16 +18,9 @@
 </head>
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="experiences.php">Experiences</a></li>
-                <li><a href="projects.php">Projects</a></li>
-                <li><a href="contact.php">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+	<?php
+		include("header.php");
+	?>
 
     <section>
         <h2>Hello, I'm - Mykhailo Shcherban</h2>
@@ -46,9 +43,9 @@
 		?>
 	</section>
 
-    <footer>
-        &copy; 2024 Mykhailo Shcherban
-    </footer>
+    <?php
+		include("footer.php");
+	?>
 
 </body>
 </html>
